@@ -1,0 +1,229 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage{biblatex}
+\addbibresource{scientific_pub.bib}
+% \addbibresource{other_pub.bib}
+
+\usepackage{tabularx}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Nicolas} % Your first name
+\familyname{Gutehrlé} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{PhD. student in NLP}
+\address{6 rue de Lorraine}{Besançon, 25000}
+\mobile{07 86 13 07 18}
+\email{nicolas.gutehrle@gmail.com}
+\homepage{http://nicolasgutehrle.com}{http://nicolasgutehrle.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional=+= information}
+\photo[100pt][0pt]{pictures/profil} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+% Arguments not required can be left empty
+\cventry{2016--2018}{MSc "Languages and Foreign Cultures” (LLCER), specialty Natural Language Processing}{Université de Franche-Comté}{Besançon, France}{Mention Très Bien}{
+\begin{itemize}
+    \item MSc thesis title: "\textit{Langue contrôlée pour un système de messages et alertes dans un environnement de mobilité : gestion de l’ambiguïté phonologique}" under the supervision of Pr. Sylviane Cardey and Dr. Iana Atanassova
+    \item End-of-studies internship: "\textit{Perception of smart objects and cities}" under the supervision of Pr. Isam Shahrour et Dr. Natalia Grabar at \textit{Université de Lille}, France
+\end{itemize}{}
+}
+
+\cventry{2013--2016}{BSc “Languages and Foreign Cultures”, specialty English and Natural Language Processing}{Université de Franche-Comté}{Besançon, France}{Mention Bien}{
+\begin{itemize}
+    \item Third year of study spent abroad at \textit{National University of Ireland Galway} with the Erasmus program
+\end{itemize}{}}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiences}
+\subsection{Work experiences}
+
+\cventry{October 2020 -- Current}{PhD. student in Natural Language Processing}{Université de Franche-Comté}{Besançon, France}{Centre de Recherches Interdisciplinaires et Transculturelles (CRIT)}{\textbf{PhD thesis title:} \newline
+"\textit{Extraction and ontological modelling of actors and places for the
+exploitation of the documentary funds of the Bourgogne Franche-Comté Region (EMONTAL)}" under the supervision of Dr. Iana Atanassova}
+
+\cventry{August 2019 -- July 2020}{Data Analyst}{OnlineFormaPro}{Vesoul, France}{}{
+\begin{itemize}
+    \item Research and Development in Deep Learning
+    \item Integration of the xAPI norm
+    \item Research in developping chatbots and speech synthesis
+\end{itemize}{}}
+
+\cventry{March 2019 -- May 2019}{Temporary worker in "\textit{AME}" project}{Université de Franche-Comté }{Besançon, France}{MSHE C.N. Ledoux}{
+\begin{itemize}
+    \item Digitizing and indexing archive collections from French author Jean-Paul Goux (photographs, interview transcriptions, handwritten notes, audio tapes)
+\end{itemize}
+}
+
+\cventry{September 2018 -- March 2019}{Research ingineer in "\textit{ORTEP Revitalisation}" project}{Université de Franche-Comté}{Besançon, France}{MSHE C.N. Ledoux}{
+\begin{itemize}
+    \item Digitization and automatic analyses of local newspapers archives published between 1840 and 1939
+    \item Development of a web interface for the recognition, extraction and geo-resolution of Named Entities in newspaper ads
+    \item Presentation of a research poster at the "\textit{HumaSpatia}" workshop in MSH Dijon
+\end{itemize}
+}
+
+\subsection{Other experiences}
+\cventry{May 2021}{Helsinki Digital Humanities Hackathon 2021}{}{Online}{}{"\textit{Space Wars}" project}
+\cventry{March 2020}{Collaborathon COVID-19}{}{Online}{}{"\textit{Inventaire des masques}" project}
+\cventry{October 2019}{Hacking Health 2019}{}{Besançon, France}{}{"\textit{Pic'Peaucket}" project (management and analyses of photographs in dermatology)}
+
+\section{Teaching Activities}
+
+\cventry{September 2020 -- Current}{Teaching assistant in MSc “Languages and Foreign Cultures” (LLCER), specialty Natural Language Processing}{Université de Franche-Comté}{Besançon, France}{Centre de Recherches Interdisciplinaires et Transculturelles (CRIT)}{\begin{itemize}
+    \item Phonetic modelling (lectures and tutorial classes)
+    \item Cognitives methods and ML (tutorial classes)
+    \item Software engineering for NLP (tutorial classes)
+\end{itemize}
+}
+
+\cventry{September -- Decembre 2018}{Teaching assistant in MSc “Languages and Foreign Cultures” (LLCER), specialty Natural Language Processing}{Université de Franche-Comté}{Besançon, France}{Centre de Recherches Interdisciplinaires et Transculturelles (CRIT)}{\begin{itemize}
+    \item Phonetic modelling (lectures and tutorial classes)
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+\subsection{Scientific articles}
+\begin{refsection}[scientific_pub.bib]
+    \nocite{*}
+    \printbibliography[heading=none]
+\end{refsection}
+
+\subsection{Blog articles}
+\begin{refsection}[other_pub.bib]
+    \nocite{*}
+    \printbibliography[heading=none]
+\end{refsection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+    \small
+    \setlength{\tabcolsep}{5pt}
+    \begin{tabular}{ll|ll}
+    \multicolumn{2}{c}{\textbf{Languages}}   & \multicolumn{2}{c}{\textbf{Computer}}                                             \\
+    \hline \\
+    \textbf{French}  & Native & \textbf{Programming}       & Python, Java                                            \\
+    \textbf{English}   & C2                & \textbf{Libraries}          & NLTK, Spacy, Pandas, Scikit-learn, PyTorch, HuggingFace \\
+    \textbf{Spanish}  & B1                & \textbf{Web}                 & HTML, CSS, JavaScript, Streamlit, Panel, Flask          \\
+    \textbf{German}  & A1                & \textbf{Databases}    & SQL (SQLite, PostgreSQL, MySQL), MongoDB, BaseX         \\
+    \textbf{Irish} & Notions           & \textbf{Markup} & \LaTeX, XML (TEI, ALTO)                  \\
+              &                   & \textbf{IDE}                 & PyCharm, Jupyter                                        \\
+              &                   & \textbf{Other softwares}    & oXygen, ABBYFineReader, TXM, LibreOffice               
+    \end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Communication Skills}
+
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+% \end{table}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Cooking}{Learning foreign languages}
+\cvlistdoubleitem{Music (multi-instruments and composition)}{Hiking}
+\cvlistitem{Reading, cinema, video games}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

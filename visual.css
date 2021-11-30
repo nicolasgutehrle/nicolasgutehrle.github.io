@@ -1,0 +1,126 @@
+
+#home_row {
+
+}
+
+.container-fluid {
+    background-color: #9E9E9E;
+}
+
+#name {
+    padding-bottom:10px;
+}
+
+.icons {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul#research li {
+  float: left;
+  padding-right: 30px;
+}
+
+#job {
+    font-size: 2em;
+    text-align:left;
+    color: #f63366;
+
+}
+
+#profilepic {
+    float: left;
+    width:100%;
+    padding-bottom: 10px;
+}
+
+#description {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#mainrow {
+    padding: 70px 70px 70px 70px;
+
+}
+html {
+    overflow: auto;
+        background-color: #9E9E9E;
+
+}
+body {
+    background-color: #9E9E9E;
+    overflow: auto;
+}
+
+#cv {
+    background-color:black;
+}
+
+#lge_select {
+    font-size: 1em;
+    float: left;
+  padding: 14px 10px;
+  border:none;
+  outline:none;
+    background-color: transparent;
+
+}
+.tablink {
+  background-color: transparent;
+
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2em;
+  width: 22.5%;
+    padding: 14px 10px -50px;
+
+
+}
+
+
+
+.tablink:hover {
+/*
+  background-color: #777;
+*/
+    font-size: 4em;
+
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 110px 15px 1px 15px;
+  height: 100%;
+  margin: 0 0 16px 0;
+  background-color: #EBEBEB;
+  box-shadow: 12px 12px #ff017d;
+
+
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff017d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
