@@ -104,15 +104,24 @@
                 <div id="bibtex_display">
 
                   <div class="bibtex_template">
-                    <ul>
+                      <span class="if year">
+                          <h3>
+                          <span class="year"></span>
+                          </h3>
+                      </span>
+                      <ul style="list-style: none;">
                         <li>
                             <span class="if url">
                                 <a class="url" target="_blank">
+                                    <em>
                                     <span class="title"></span>
+                                    </em>
                                 </a>
                             </span>
                             <span class="if !url">
+                                <em>
                                 <span class="title"></span>
+                                </em>
                             </span>
                           <div class="if author">
                             <span class="author"></span>
@@ -144,18 +153,24 @@
                           </div>
                         </div>
 
-                        <div class="section article">
-                          <h1>Refereed Articles</h1>
+                      <div class="section dataset">
+                          <h1>Datasets</h1>
                           <div class="sort year" extra="DESC number">
                             <div class="templates"></div>
                           </div>
                         </div>
-                        <div class="section book">
-                          <h1>Books</h1>
-                          <div class="sort year" extra="DESC number">
-                            <div class="templates"></div>
-                          </div>
-                        </div>
+<!--                        <div class="section article">-->
+<!--                          <h1>Refereed Articles</h1>-->
+<!--                          <div class="sort year" extra="DESC number">-->
+<!--                            <div class="templates"></div>-->
+<!--                          </div>-->
+<!--                        </div>-->
+<!--                        <div class="section book">-->
+<!--                          <h1>Books</h1>-->
+<!--                          <div class="sort year" extra="DESC number">-->
+<!--                            <div class="templates"></div>-->
+<!--                          </div>-->
+<!--                        </div>-->
 
                       <div class="section phdthesis|mastersthesis">
                           <h1>Thesis</h1>
@@ -176,21 +191,52 @@
                 </div>
 
                 <div id="Teachings" class="tabcontent">
-                  <h1>Teaching assistant</h1>
+                    <div class="row">
+                        <div class="col-lg-6">
+                         <h1>Teaching assistant</h1>
 
-                    <p>
-                        <strong>MSc "Languages and Foreign Cultures" (LLCER), specialty Natural Language Processing</strong>,<br>
-                        <i>Université de Franche-Comté</i>, Besançon, France,<br>
-                        Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).
-                    </p>
-                    <ul>
-                        <li>Phonetic modelling (lectures and tutorial classes)</li>
-                        <li>Cognitive methods and ML (tutorial classes)</li>
-                        <li>Software engineering for NLP (tutorial classes)</li>
-                    </ul>
+                            <p>
+                                <strong>MSc "Languages and Foreign Cultures" (LLCER), specialty Natural Language Processing</strong>,<br>
+                                <i>Université de Franche-Comté</i>, Besançon, France,<br>
+                                Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).
+                            </p>
+                            <ul>
+                                <li>Phonetic modelling (lectures and tutorial classes)</li>
+                                <li>Cognitive methods and ML (tutorial classes)</li>
+                                <li>Software engineering for NLP (tutorial classes)</li>
+                            </ul>
 
-<!--Chargé de cours en master LCER parcours Traitement Automatique des Langues, Université de Franche-Comté, Besançon, France, Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).-->
-<!--􏰂 Modélisation phonétique (TD et CM)-->
+                            <h1>Other teachings</h1>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <a href="ressources/Latex_URFIST.pdf" target="_blank">
+                                        Initiation to the redaction of documents with LaTeX (in French)
+                                    </a>
+                                    <br>
+                                    <em>URFIST of Lyon</em>, November 2021
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <h1>Seminars</h1>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <a href="ressources/SeminaireTesniere_2022-NicolasGutehrle.pdf" target="_blank">
+                                    Creating and annotating a corpus of historical newspapers for <br>
+                                        Natural Language Processing: progress of the EMONTAL project <br>
+                                        (in French)
+                                    </a>
+                                    <br>
+                                   <i>Université de Franche-Comté</i>, Février 2022, <br>
+                                    Besançon, France<br>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
                 </div>
 
                 <div id="Ressources" class="tabcontent">

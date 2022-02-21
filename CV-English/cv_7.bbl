@@ -93,6 +93,12 @@
       \field{title}{{Cartographier les données textuelles des petites annonces du Salinois (1840-1939)}}
       \field{year}{2019}
       \true{nocite}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/331563418_Cartographier_les_donnees_textuelles_des_petites_annonces_du_Salinois_1840-1939
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/331563418_Cartographier_les_donnees_textuelles_des_petites_annonces_du_Salinois_1840-1939
+      \endverb
     \endentry
     \entry{gutehrle-master}{thesis}{}
       \name{author}{1}{}{%

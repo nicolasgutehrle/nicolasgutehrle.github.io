@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.28)  3 SEP 2021 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.28)  30 NOV 2021 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -845,21 +845,16 @@ Package biblatex Info: Reference section=1 on input line 168.
 Package biblatex Info: Setting label 'refsection:1' on input line 168.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 170.
-Package biblatex Info: Reference section=0 on input line 171.
-\blx@maxsegment@2=\count404
-\blx@sectionciteorder@2=\count405
-Package biblatex Info: Reference section=2 on input line 174.
-Package biblatex Info: Setting label 'refsection:2' on input line 174.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 176.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 170.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-76.
+70.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -867,6 +862,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package biblatex Info: Reference section=0 on input line 171.
+\blx@maxsegment@2=\count404
+\blx@sectionciteorder@2=\count405
+Package biblatex Info: Reference section=2 on input line 174.
+Package biblatex Info: Setting label 'refsection:2' on input line 174.
  [2]
 Package biblatex Info: Reference section=0 on input line 177.
  [3] (./cv_7.aux)
@@ -879,11 +879,11 @@ Package logreq Info: Writing requests to 'cv_7.run.xml'.
 Here is how much of TeX's memory you used:
  18931 strings out of 478994
  323427 string characters out of 5858184
- 1172103 words of memory out of 5000000
+ 1173117 words of memory out of 5000000
  36007 multiletter control sequences out of 15000+600000
  485288 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,88p,1149b,1524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,12n,88p,1149b,1523s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2
 021/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2021/texmf-
@@ -895,10 +895,10 @@ bo10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (3 pages, 314068 bytes).
+Output written on cv_7.pdf (3 pages, 316552 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 129 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 500000)
  47702 words of extra memory for PDF output out of 51595 (max. 10000000)
 

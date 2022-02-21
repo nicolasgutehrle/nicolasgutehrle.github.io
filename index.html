@@ -65,7 +65,7 @@
                                 </div>
 
 
-                                <div class="col-lg-8">
+                                <div class="col-lg-8" style="text-align: justify;">
                                     <h2>Doctorant en TAL</h2>
                                     <h3>dans le projet <a href="http://tesniere.univ-fcomte.fr/projet-emontal/" target="_blank">EMONTAL</a></h3>
                                     <p id="description">
@@ -105,15 +105,25 @@
                 <div id="bibtex_display">
 
                   <div class="bibtex_template">
-                    <ul>
+                  <span class="if year">
+                      <h3>
+                      <span class="year"></span>
+                      </h3>
+                  </span>
+
+                    <ul style="list-style: none;">
                         <li>
                             <span class="if url">
                                 <a class="url" target="_blank">
+                                    <em>
                                     <span class="title"></span>
+                                    </em>
                                 </a>
                             </span>
                             <span class="if !url">
+                                <em>
                                 <span class="title"></span>
+                                </em>
                             </span>
                           <div class="if author">
                             <span class="author"></span>
@@ -138,25 +148,31 @@
 <!--                    <div class="bibtex_display" bibtexkey="^wheredidithappen"></div>-->
                     <div class="bibtex_structure">
                       <div class="sections bibtextypekey">
-                           <div class="section inproceedings">
+                       <div class="section inproceedings">
                           <h1>Articles de conférences ou d'ateliers</h1>
                           <div class="sort year" extra="DESC number">
                             <div class="templates"></div>
                           </div>
                         </div>
 
-                        <div class="section article">
-                          <h1>Refereed Articles</h1>
+                        <div class="section dataset">
+                          <h1>Jeu de données</h1>
                           <div class="sort year" extra="DESC number">
                             <div class="templates"></div>
                           </div>
                         </div>
-                        <div class="section book">
-                          <h1>Books</h1>
-                          <div class="sort year" extra="DESC number">
-                            <div class="templates"></div>
-                          </div>
-                        </div>
+<!--                        <div class="section article">-->
+<!--                          <h1>Refereed Articles</h1>-->
+<!--                          <div class="sort year" extra="DESC number">-->
+<!--                            <div class="templates"></div>-->
+<!--                          </div>-->
+<!--                        </div>-->
+<!--                        <div class="section book">-->
+<!--                          <h1>Books</h1>-->
+<!--                          <div class="sort year" extra="DESC number">-->
+<!--                            <div class="templates"></div>-->
+<!--                          </div>-->
+<!--                        </div>-->
 
                       <div class="section phdthesis|mastersthesis">
                           <h1>Mémoires</h1>
@@ -177,18 +193,50 @@
                 </div>
 
                 <div id="Teachings" class="tabcontent">
-                  <h1>Chargé de cours</h1>
+                    <div class="row">
+                        <div class="col-lg-6">
+                          <h1>Chargé de cours</h1>
 
-                    <p>
-                        <strong>master LCER parcours Traitement Automatique des Langues</strong>,<br>
-                        <i>Université de Franche-Comté</i>, Besançon, France,<br>
-                        Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).
-                    </p>
-                    <ul>
-                        <li>Modélisation phonétique (TD et CM)</li>
-                        <li>Approches cognitives (TD)</li>
-                        <li>Techniques de programmation 2 (TD)</li>
-                    </ul>
+                            <p>
+                                <strong>master LCER parcours Traitement Automatique des Langues</strong>,<br>
+                                <i>Université de Franche-Comté</i>, Besançon, France,<br>
+                                Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).
+                            </p>
+                            <ul>
+                                <li>Modélisation phonétique (TD et CM)</li>
+                                <li>Approches cognitives (TD)</li>
+                                <li>Techniques de programmation 2 (TD)</li>
+                            </ul>
+
+                            <h1>Formations</h1>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <a href="ressources/Latex_URFIST.pdf" target="_blank">
+                                        Initiation à la rédaction de documents avec LaTeX
+                                    </a>
+                                    <br>
+                                    <em>URFIST de Lyon</em>, novembre 2021
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-lg-6">
+                            <h1>Séminaires</h1>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <a href="ressources/SeminaireTesniere_2022-NicolasGutehrle.pdf" target="_blank">
+                                    Création et annotation d'un corpus de presse historique <br>
+                                        à destination du TAL: avancée du projet EMONTAL
+                                    </a>
+                                    <br>
+                                   <i>Université de Franche-Comté</i>, Février 2022, <br>
+                                    Besançon, France<br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
 
 <!--Chargé de cours en master LCER parcours Traitement Automatique des Langues, Université de Franche-Comté, Besançon, France, Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).-->
 <!--􏰂 Modélisation phonétique (TD et CM)-->
@@ -225,7 +273,6 @@
                 </div>
             </div>
 
-<!--            <div class="col-lg-1"></div>-->
         </div>
     </div>
 
