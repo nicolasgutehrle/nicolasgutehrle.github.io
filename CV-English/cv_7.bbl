@@ -19,6 +19,87 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
+    \entry{nicolas_gutehrle_2021_5752440}{dataset}{}
+      \name{author}{2}{}{%
+        {{hash=dab3c0d7f4dcb30dff6b180436fc6997}{%
+           family={Gutehrlé},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
+           family={Atanassova},
+           familyi={A\bibinitperiod},
+           given={Iana},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{fullhash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{bibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{authorbibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{authornamehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{authorfullhash}{fa049e95ff56dbfb791cfabdada0a393}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Dataset for Logical-layout analysis on French historical newspapers}}
+      \field{version}{1.0}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.5281/zenodo.5752440
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.5752440
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.5752440
+      \endverb
+    \endentry
+    \entry{gutehrle:hal-03468972}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=dab3c0d7f4dcb30dff6b180436fc6997}{%
+           family={Gutehrlé},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=de8dcb7ae98765f0cf884691a8a01e4b}{%
+           family={Atanassova},
+           familyi={A\bibinitperiod},
+           given={Iana},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{fullhash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{bibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{authorbibnamehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{authornamehash}{fa049e95ff56dbfb791cfabdada0a393}
+      \strng{authorfullhash}{fa049e95ff56dbfb791cfabdada0a393}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{working paper or preprint}
+      \field{title}{{Logical Layout Analysis Applied to Historical Newspapers}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb https://hal.archives-ouvertes.fr/hal-03468972/file/9_Paper-2.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.archives-ouvertes.fr/hal-03468972
+      \endverb
+      \verb{url}
+      \verb https://hal.archives-ouvertes.fr/hal-03468972
+      \endverb
+    \endentry
     \entry{guterhle:hal-01956816}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=dab3c0d7f4dcb30dff6b180436fc6997}{%
@@ -99,6 +180,68 @@
       \verb{url}
       \verb https://www.researchgate.net/publication/331563418_Cartographier_les_donnees_textuelles_des_petites_annonces_du_Salinois_1840-1939
       \endverb
+    \endentry
+    \entry{gutehrle:hal-03468926}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=dab3c0d7f4dcb30dff6b180436fc6997}{%
+           family={Gutehrlé},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0a0b4d089cbf89dfc836ee2e5f7294e2}{%
+           family={Harlamov},
+           familyi={H\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=f28f12daf2751943e4faf6eed21c7ed6}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={Farimah},
+           giveni={F\bibinitperiod}}}%
+        {{hash=148afa345e7b99cbcc47a0850f3bbdbd}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Haoyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=04a0d63a3632a5977fe741350f674bbb}{%
+           family={Jean-Caurant},
+           familyi={J\bibinithyphendelim C\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=851941eecd1da6e3357899a5ab94402d}{%
+           family={Pivovarova},
+           familyi={P\bibinitperiod},
+           given={Lidia},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CEUR Workshop Proceedings}%
+      }
+      \strng{namehash}{50fb1fa497af76a9ade99b31dcf60270}
+      \strng{fullhash}{657e5a53234ef158976b3bc5190deb68}
+      \strng{bibnamehash}{50fb1fa497af76a9ade99b31dcf60270}
+      \strng{authorbibnamehash}{50fb1fa497af76a9ade99b31dcf60270}
+      \strng{authornamehash}{50fb1fa497af76a9ade99b31dcf60270}
+      \strng{authorfullhash}{657e5a53234ef158976b3bc5190deb68}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{CEUR Workshop Proceedings}}
+      \field{month}{10}
+      \field{title}{{SpaceWars: A Web Interface for Exploring the Spatio-temporal Dimensions of WWI Newspaper Reporting}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb https://hal.archives-ouvertes.fr/hal-03468926/file/SpaceWars_article_HistoInformatics_CEUR_WS.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.archives-ouvertes.fr/hal-03468926
+      \endverb
+      \verb{url}
+      \verb https://hal.archives-ouvertes.fr/hal-03468926
+      \endverb
+      \keyw{Named Entities ; visualization ; georeferencing ; newspapers ; WWI}
     \endentry
     \entry{gutehrle-master}{thesis}{}
       \name{author}{1}{}{%
