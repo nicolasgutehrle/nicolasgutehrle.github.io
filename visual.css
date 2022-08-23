@@ -1,7 +1,16 @@
 
 
 .container-fluid {
-    background-color: #9E9E9E;
+
+  /* background-image: url(images/759999.png); */
+
+  /* Full height
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 #name {
@@ -38,16 +47,30 @@ ul#research li {
 
 #mainrow {
     padding: 70px 70px 70px 70px;
+    height: 100%;
 
 }
 html {
     overflow: auto;
-        background-color: #9E9E9E;
+    height: 100%;
+        /* background-color: #9E9E9E; */
+        /* background: url(color-stripes-1169611.jpg) */
 
 }
 body {
-    background-color: #9E9E9E;
+    /* background-color: #9E9E9E; */
     overflow: auto;
+    height: 100%;
+
+    background-image: url(images/759999.png);
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cv {
@@ -92,7 +115,7 @@ body {
   height: 100%;
   margin: 0 0 16px 0;
   background-color: #EBEBEB;
-  box-shadow: 12px 12px #ff017d;
+  /* box-shadow: 2px 2px #000000; */
 
 
 }
