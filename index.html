@@ -28,13 +28,21 @@
             <div class="col-lg-12">
                  <div id="navbar">
                      <button class="tablink" onclick="openPage('Home', this, 'red')"  id="defaultOpen"
-                     onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Accueil</button>
-                    <button class="tablink" onclick="openPage('Publications', this, 'green')"
-                    onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Publications</button>
+                     onmouseover="this.style.fontSize='25px'" onmouseout="this.style.fontSize='20px'">Accueil</button>
+                    
+                     <button class="tablink" onclick="openPage('Publications', this, 'green')"
+                    onmouseover="this.style.fontSize='25px'" onmouseout="this.style.fontSize='20px'">Publications</button>
+                    
                     <button class="tablink" onclick="openPage('Teachings', this, 'blue')"
-                    onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Enseignements</button>
+                    onmouseover="this.style.fontSize='25px'" onmouseout="this.style.fontSize='20px'">Enseignements</button>
+
+                    <button class="tablink" onclick="openPage('Services', this, 'yellow')"
+                    onmouseover="this.style.fontSize='25px'" onmouseout="this.style.fontSize='20px'">Engagements</button>
+
+
                     <button class="tablink" onclick="openPage('Ressources', this, 'orange')"
-                    onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Ressources</button>
+                    onmouseover="this.style.fontSize='25px'" onmouseout="this.style.fontSize='20px'">Ressources</button>
+
                      <select name="lge" id="lge_select">
                          <option value="./index.html">FR</option>
                          <option value="./index_english.html">EN</option>
@@ -148,6 +156,14 @@
 <!--                    <div class="bibtex_display" bibtexkey="^wheredidithappen"></div>-->
                     <div class="bibtex_structure">
                       <div class="sections bibtextypekey">
+                        <div class="section article">
+                            <h1>Articles de journaux</h1>
+                            <div class="sort year" extra="DESC number">
+                              <div class="templates"></div>
+                            </div>
+                          </div>
+
+
                        <div class="section inproceedings">
                           <h1>Articles de conférences ou d'ateliers</h1>
                           <div class="sort year" extra="DESC number">
@@ -206,6 +222,7 @@
                                 <li>Modélisation phonétique (TD et CM)</li>
                                 <li>Approches cognitives (TD)</li>
                                 <li>Techniques de programmation 2 (TD)</li>
+                                <li>Atelier d'écriture scientifique (TD)</li>
                             </ul>
 
                             <h1>Formations</h1>
@@ -215,7 +232,7 @@
                                         Initiation à la rédaction de documents avec LaTeX
                                     </a>
                                     <br>
-                                    <em>URFIST</em>, novembre 2021 <br>
+                                    <em>URFIST</em>, novembre 2021-2022 <br>
                                     Lyon, France
                                 </li>
                             </ul>
@@ -239,10 +256,30 @@
                     </div>
 
 
+
+
 <!--Chargé de cours en master LCER parcours Traitement Automatique des Langues, Université de Franche-Comté, Besançon, France, Centre de Recherches Interdisciplinaires et Transculturelles (CRIT).-->
 <!--􏰂 Modélisation phonétique (TD et CM)-->
                 </div>
 
+                <div id="Services" class="tabcontent">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1>Vulgarisation scientifique</h1>
+                            <ul>
+                                <li>Participation à la formation <i>Expérimentarium</i> (Besançon, décembre 2021)</li>
+                                <li>Participation à l'événement <i>Speed Searching</i> dans le cadre de <i>La Nuit des Chercheurs</i> (Septembre 2022)</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h1>Evaluation d'articles</h1>
+                            <ul>
+                                <li>Evaluateur pour <i>Journal on Computing and Cultural Heritage</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
                 <div id="Ressources" class="tabcontent">
                   <div class="row" >
                         <div class="col-lg-6">
@@ -262,12 +299,6 @@
                         <div class="col-lg-6">
                             <h1>Mes compositions musicales</h1>
                             <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1311013855%3Fsecret_token%3Ds-GmYHfNxwvXa&color=%23ff017d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nicolas-gutehrle" title="Nicolas Gutehrlé" target="_blank" style="color: #cccccc; text-decoration: none;">Nicolas Gutehrlé</a> · <a href="https://soundcloud.com/nicolas-gutehrle/sets/mes-compositions/s-GmYHfNxwvXa" title="Mes compositions" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>
-<!--                            <h1>Autres</h1>-->
-<!--                            <ul>-->
-<!--                                <li>-->
-<!--                                    <a href="https://soundcloud.com/nicolas-gutehrle" target="_blank">Mes compositions musicales !</a>-->
-
-<!--                                </li>-->
                             </ul>
                         </div>
                     </div>

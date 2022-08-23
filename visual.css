@@ -1,7 +1,4 @@
 
-#home_row {
-
-}
 
 .container-fluid {
     background-color: #9E9E9E;
@@ -58,9 +55,9 @@ body {
 }
 
 #lge_select {
-    font-size: 1em;
+    font-size: 15px;
     float: left;
-  padding: 14px 10px;
+  padding: 10px 10px;
   border:none;
   outline:none;
     background-color: transparent;
@@ -73,20 +70,18 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 2em;
-  width: 22.5%;
+  font-size: 20px;
+  width: 18%;
     padding: 14px 10px -50px;
 
 
 }
 
-
-
 .tablink:hover {
 /*
   background-color: #777;
 */
-    font-size: 4em;
+    font-size: 4px;
 
 }
 

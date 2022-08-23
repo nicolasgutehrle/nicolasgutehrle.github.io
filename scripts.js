@@ -10,7 +10,7 @@ function openPage(pageName,elmnt,color) {
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].style.fontSize = "2vw";
+      tablinks[i].style.fontSize = "20px";
 	tablinks[i].style.borderBottom = "none";
 
   }
@@ -18,7 +18,7 @@ function openPage(pageName,elmnt,color) {
     document.getElementById(pageName).style.display="block";
    
     elmnt.style.borderBottom = "thick solid #ff017d";
-    elmnt.style.fontSize = "3vw";
+    elmnt.style.fontSize = "25px";
 
 
 }

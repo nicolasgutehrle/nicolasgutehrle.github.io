@@ -29,12 +29,19 @@
                  <div id="navbar">
                      <button class="tablink" onclick="openPage('Home', this, 'red')"  id="defaultOpen"
                      onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Home</button>
-                    <button class="tablink" onclick="openPage('Publications', this, 'green')"
+                    
+                     <button class="tablink" onclick="openPage('Publications', this, 'green')"
                     onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Publications</button>
+                    
                     <button class="tablink" onclick="openPage('Teachings', this, 'blue')"
                     onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Teachings</button>
+             
+                    <button class="tablink" onclick="openPage('Services', this, 'yellow')"
+                    onmouseover="this.style.fontSize='25px'" onmouseout="this.style.fontSize='20px'">Services</button>
+
                     <button class="tablink" onclick="openPage('Ressources', this, 'orange')"
                     onmouseover="this.style.fontSize='3vw'" onmouseout="this.style.fontSize='2vw'">Resources</button>
+                    
                     <select name="lge" id="lge_select">
                          <option value="./index_english.html">EN</option>
                          <option value="./index.html">FR</option>
@@ -146,7 +153,15 @@
 <!--                    <div class="bibtex_display" bibtexkey="^wheredidithappen"></div>-->
                     <div class="bibtex_structure">
                       <div class="sections bibtextypekey">
-                           <div class="section inproceedings">
+
+                        <div class="section article">
+                            <h1>Journal articles</h1>
+                            <div class="sort year" extra="DESC number">
+                              <div class="templates"></div>
+                            </div>
+                          </div>
+
+                        <div class="section inproceedings">
                           <h1>Conference and workshop articles</h1>
                           <div class="sort year" extra="DESC number">
                             <div class="templates"></div>
@@ -213,7 +228,7 @@
                                         Initiation to the redaction of documents with LaTeX (in French)
                                     </a>
                                     <br>
-                                    <em>URFIST</em>, November 2021 <br>
+                                    <em>URFIST</em>, November 2021 - 2022 <br>
                                     Lyon, France
                                 </li>
                             </ul>
@@ -238,6 +253,25 @@
                     </div>
 
 
+                </div>
+
+                <div id="Services" class="tabcontent">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1>Scientific dissemination</h1>
+                            <ul>
+                                <li>Participation to the <i>Expérimentarium</i> workshop (December 2021)</li>
+                                <li>Participation to the <i>Speed Searching</i> event in the context of the <i>European’s Researchers Night</i>
+                                    (September 2022)</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h1>Reviewing</h1>
+                            <ul>
+                                <li>Reviewer for <i>Journal on Computing and Cultural Heritage</i></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="Ressources" class="tabcontent">
