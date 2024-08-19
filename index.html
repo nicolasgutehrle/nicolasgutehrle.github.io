@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Gutehrlé, Ph.D. - Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            /* background-color: #ebe5ce; */
+            color: #303030;
+
+        }
+        header {
+            /* background-color: #2E3B4E; */
+            /* color: white; */
+            text-align: center;
+            padding: 1.5em 0;
+        }
+
+        .container {
+            padding: 2em;
+            max-width: 1200px;
+            margin: auto;
+
+        }
+        section {
+            margin-bottom: 2em;
+            margin-left: 5%;
+            margin-right: 5%;
+
+        }
+        p {
+            text-align: justify;
+        }
+
+        a {
+            color: #ff017d;
+            text-decoration: none;
+
+        }
+
+        a:visited {
+            color: #ff017d;
+
+        }
+
+        hr {
+            width: 50%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            /* background-color: #333; */
+            color: white;
+        }
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 50%;
+        }        
+        .profileimg {
+            max-width: 70%;
+            max-height: auto;
+            /* border: 1px solid; */
+            margin: 5px 5px 5px 5px;
+            /* float: left; */
+        }
+
+/* The side navigation menu */
+        .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        /* background-color: #f1f1f1; */
+        position: fixed;
+        height: 100%;
+        /* overflow: auto; */
+        z-index: 99999;
+        }
+
+        /* Sidebar links */
+        .sidebar a {
+        display: block;
+        font-weight: bold;
+        color: #303030;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 20px;
+        }
+
+        /* Active/current link */
+        .sidebar a.active {
+        /* background-color: #04AA6D; */
+        color: white;
+        }
+
+        /* Links on mouse-over */
+        .sidebar a:hover:not(.active) {
+        /* background-color: #555; */
+        color: #ff017d;
+        }
+
+        /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+        div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+        }
+        @media screen and (max-width: 1600px) {
+          .sidebar{  margin: 0;
+            padding: 0;
+            width: 10%;
+            /* background-color: #f1f1f1; */
+            position: fixed;
+            height: 100%;
+            /* overflow: auto; */
+            z-index: 99999;
+            }
+        }
+        /* On screens that are less than 700px wide, make the sidebar into a topbar */
+        @media screen and (max-width: 1350px) {
+            .sidebar {
+
+                visibility: hidden;
+
+            }
+            div.content {
+                margin-left: 0;
+            }
+            .row {
+                flex-direction: column;
+            }
+
+        }
+
+        /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+        @media screen and (max-width: 400px) {
+            .sidebar {
+                visibility: hidden;
+
+            }
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="sidebar">
+        <img src="pictures/profil-nicolas.jpg" alt="Profile picture of Nicolas Gutehrlé" class="profileimg">
+
+        <a href="#header">Nicolas Gutehrlé, Ph.D.</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teachings">Teachings</a>
+        <a href="#popularisation">Popularisation</a>
+
+    </div>
+        <header id="header">
+
+                    <h1>Nicolas Gutehrlé, Ph.D.</h1>
+                    <!-- <img src="pictures/profil-nicolas.jpg" alt="Profile picture of Nicolas Gutehrlé" class="responsiveimg profileimg"> -->
+
+                    <h2>Natural Language Processing</h2>
+                    <h3>nicolas.gutehrle@univ-fcomte.fr</h3>
+                    <h2>
+                        <a href="https://x.com/NGutehrle" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/nicolasgutehrle" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://www.linkedin.com/in/nicolas-gutehrlé-658690123/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="https://orcid.org/my-orcid?orcid=0009-0000-1958-215X" target="_blank"><i class="fa-brands fa-orcid" ></i></a>
+                        <a href="https://scholar.google.fr/citations?hl=en&pli=1&user=xDEQt2YAAAAJ" target="_blank"><i class="fa-brands fa-google-scholar" ></i></a>
+                        <a href="https://hal.science/search/index/?q=*&authIdPerson_i=750772" target="_blank">HAL</a>
+                    </h2>
+                    <button id="CVFR"><a href="CV_FR.pdf" target="_blank">CV (French)</a></button>
+                    <button id="CVEN"><a href="CV_EN.pdf" target="_blank">CV (English)</a></button>
+
+
+    </header>
+
+    <div class="container">
+        <section id="research" class="research">
+            <h1>Research</h1>
+            <div class="row">
+                <div class="column">
+                    <h2>Research Interests</h2>
+                    <ul>
+                        <li>Digital Humanities</li>
+                        <li>Information Extraction</li>
+                        <li>Information Retrieval</li>
+                        <li>Knowledge Management</li>
+                        <li>Semantic Annotation</li>
+                        <li>Search Interfaces</li>
+                        <li>Visualisation</li>
+        
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>Thématiques de recherche</h2>
+                    <ul>
+                        <li>Humanités Numériques</li>
+                        <li>Extraction d'informations</li>
+                        <li>Recherche d'informations</li>
+                        <li>Gestion des connaissances</li>
+                        <li>Annotation sémantique</li>
+                        <li>Interfaces de recherche</li>
+                        <li>Visualisation</li>
+        
+                    </ul>
+                </div>
+              </div>
+
+
+            <h2>Projects</h2>
+            <h3>Current projects</h3>
+            <h4><a href="https://project-inscim.github.io" target="_blank">ANR InSciM - Modelling Uncertainty in Science</a><br>
+                Post-doctoral researcher<br>
+                2024 - Present<br>
+            </h4>
+
+            <p>
+                The ANR InSciM project aims to study uncertainty in science through ontological and linguistic modelling of this notion from datasets of articles in different disciplines. The objectives are to propose a linguistic model of the expression of uncertainty in scientific articles, in order to propose a tool to identify and classify these phenomena present in papers in different disciplines in Social Sciences and Humanities (SSH) and in Science, Technology, and Medicine (STM).
+            </p>
+
+            <h3>Past projects</h3>
+            <h4><a href="http://tesniere.univ-fcomte.fr/projet-emontal/index_en.html" target="_blank"> EMONTAL - Extraction et Modélisation Ontlogique des Acteurs et Lieux pour la valorisation du patrimoine de Bourgogne Franche-Comté</a><br>
+                Ph.D. student <br>
+                2020 - 2024 <br>
+            </h4>
+            <p>
+                The objective of the EMONTAL project is to propose a methodology to automatically process documentary and archive collections of heterogeneous natures (newspapers, chronicles, administrative documents, reports, etc.) for the purpose of heritage enhancement dedicated to a given socio-historical context. historical context. This is based on the development of textual analyses, which fall within the field of Automatic Language Processing and discourse analysis.
+            </p>
+
+
+        </section>
+
+        <hr>
+
+        <section id="publications" class="publications">
+            <h1>Publications</h1>
+            <button><a href="Publications_Gutehrle.pdf" target="_blank">Download full list of publications (PDF)</a></button>
+
+            <h2>Selected publications</h2>
+            <h3>2024</h3>
+            <p>
+                Gutehrlé, N. (2024). Semantic Search in Archive Collections Through Interpretable and Adaptable
+                Relation Extraction About Person and Places. In N. Goharian, N. Tonellotto, Y. He,
+                A. Lipani, G. McDonald, C. Macdonald & I. Ounis (Éd.), Advances in Information
+                Retrieval (p. 315-318). Springer Nature Switzerland.
+                <a href="https://doi.org/10.1007/978-3-031-56069-9_37" target="_blank">https://doi.org/10.1007/978-3-031-56069-9_37</a>
+            </p>
+            <h3>2023</h3>
+            <p>
+                Gutehrlé, N., & Atanassova, I. (2023). Comprendre les archives : vers de nouvelles interfaces
+                de recherche reposant sur l’annotation sémantique des documents Understanding Archives
+                : Towards New Research Interfaces Relying on the Semantic Annotation of Documents.
+                CiDE.23 : Document et archivage : pratiques formelles et informelles. https://hal.science/hal-04523110
+                <a href="https://hal.science/hal-04523110" target="_blank">https://hal.science/hal-04523110</a>
+            </p>
+            <h3>2022</h3>
+            <p>
+                Gutehrlé, N., Doucet, A., & Jatowt, A. (2022). Archive TimeLine Summarization (ATLS):
+                Conceptual Framework for Timeline Generation over Historical Document Collections.
+                Proceedings of the 6th Joint SIGHUM Workshop on Computational Linguistics for Cultural
+                Heritage, Social Sciences, Humanities and Literature, 13-23. https://aclanthology.org/2022.latechclfl-1.3
+                <a href="https://aclanthology.org/2022.latechclfl-1.3/" target="_blank">https://aclanthology.org/2022.latechclfl-1.3/</a>
+            </p>
+            <p>
+                Gutehrlé, N., & Atanassova, I. (2022). Processing the structure of documents: Logical Layout
+                Analysis of historical newspapers in French. Journal of Data Mining & Digital Humanities,
+                NLP4DH. https://doi.org/10.46298/jdmdh.9093
+                <a href="https://jdmdh.episciences.org/9614/pdf" target="_blank">https://jdmdh.episciences.org/9614/pdf</a>
+            </p>
+            <p>
+                Gutehrlé, N., Harlamov, O., Karimi, F., Wei, H., Jean-Caurant, A., & Pivovarova,
+                L. (2021). SpaceWars: A Web Interface for Exploring the Spatio-temporal Dimensions
+                of WWI Newspaper Reporting. HistoInformatics 2021 – 6th International Workshop on
+                Computational History.
+                <a href="https://ceur-ws.org/Vol-2981/paper3.pdf" target="_blank">https://ceur-ws.org/Vol-2981/paper3.pdf</a>
+
+            </p>
+
+        </section>
+
+        <hr>
+
+
+        <section id="teachings" class="teachings">
+            <h1>Current teaching activities</h1>
+            For past teaching activities and master thesis supervision, see <a href="#CVFR">CV</a>.
+
+            <div class="row">
+                <div class="column">
+                    <h3>Teaching assistant <br>
+                        <a href="https://formations.u-bourgogne.fr/fr/offre-de-formation/master-XB/master-sciences-du-langage-enseignement-a-distance-LNEJ1NCW/langage-et-cognition-dans-la-societe-de-l-information-LNEJ3LWV.html" target="_blank">Msc "Langage et Cognition dans la Société de <br>l'Information" (LACSI)</a><br>
+                        Université de Bourgogne        
+                    </h3>
+                        <ul>
+                            <li>Computational Linguistics (tutorial classes)</li>
+                        </ul>
+            
+                        <h3><a href="https://urfist.univ-lyon1.fr" target="_blank">URFIST de Lyon</a></h3>
+                        <ul>
+                            <li>Initiation to document redaction with LaTeX (tutorial classes)</li>
+                        </ul>
+                </div>
+                <div class="column">
+                    <h3>Teaching assistant<br>
+                        <a href="http://tesniere.univ-fcomte.fr/master.html" target="_blank">Msc "Langues, Littératures et Civilisations Etrangères et Régionales" (LLCER), specialty Natural Language Processing</a><br>
+                        Université de Franche-Comté
+                    </h3>
+                    <ul>
+                        <li>Phonetic modelling (tutorial and lecture classes)</li>
+                        <li>Cognitive methods and Machine Learning (tutorial classes)</li>
+                        <li>Software engineering for NLP (tutorial classes)</li>
+                        <li>Scientific writing workshop (tutorial classes)</li>
+                        <li>Advanced Programming (tutorial classes)</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+        
+        <hr>
+        
+        <section id="popularisation" class="popularisation">
+            <h1>Popularisation of science</h1>
+            For the full list of popularisation of science events and articles, see <a href="#CVFR">CV</a>.
+            <div class="row">
+                <div class="column">
+                    <h2>Selected events</h2>
+                    <ul>
+                        <li><a href="https://nuitdeschercheurs-france.eu/" target="_blank">Nuit européenne des chercheur.e.s</a> - Besançon, France (2022, 2023, 2024)</li>
+                        <li><a href="https://www.fetedelascience.fr" target="_blank">Fête de la Science</a> - Besançon, France (2023, 2024)</li>
+                        <li><a href="https://actu.univ-fcomte.fr/agenda/ovni-debarque-voyage-intergalactique" target="_blank"></a>OVNI - région Franche-Comté, France (2023)</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>Selected articles</h2>
+                    <ul>
+                        <li><a href="https://tinyurl.com/8as576vf" target="_blank">Comprendre les archives : vers de nouvelles interfaces de recherche reposant sur l'annotation sémantique des documents</a></li>
+                        <li><a href="https://tinyurl.com/3p9ytdrw" target="_blank">Donner un nouveau sens aux documents historiques, journal En Direct, n° 312, 2024 </a></li>
+                        <li><a href="https://tinyurl.com/5bhnykna" target="_blank">Where did it happen ?: Spatial imaginaries of World War I, NewsEye Blog, 2021</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </section>
+    </div>
+    <footer>
+        <p>Nicolas Gutehrlé</p>
+    </footer>
+</body>
+</html>
