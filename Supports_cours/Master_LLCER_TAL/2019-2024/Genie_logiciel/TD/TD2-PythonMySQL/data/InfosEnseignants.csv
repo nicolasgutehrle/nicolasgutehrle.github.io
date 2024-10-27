@@ -1,0 +1,5 @@
+enseignantID,age,ville,codePostal,dateNaissance
+1,28,"Dijon",21000,1995-02-17
+2,29,"Besancon",25000,1994-09-14
+3,26,"Besancon",25000,1997-03-19
+4,25,"Besancon",25000,1998-03-19
